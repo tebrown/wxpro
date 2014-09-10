@@ -1,0 +1,49 @@
+vantage path = /dev/ttyS0
+
+# Decimal degrees, negative for south
+latitude = 
+
+# Degimal degrees, negative for West
+longitude = 
+
+# Timezone.. negative for west
+timezone = 0
+
+# ID for weather underground
+wunderground_id = 
+
+# Password for weatherundeground
+wunderground_password = 
+
+# Use call sign if you are a HAM
+cwop_user = CW0001  
+
+# email me if you need a APRS passcode
+cwop_password = -1
+
+# http://www.wxqa.com/servers2use.html
+cwop_server = rotate.aprs.net
+
+# Should be 14580 or 23
+cwop_port = 14580
+
+# elevation, in feet
+elevation = 0  
+
+# If you barometer needs some tweaking
+barometer_offset = 0  # inches
+
+# last digit of your CWOP id (ASxxx)
+cwop_ul_min = 0  
+
+postal_code=
+city=
+state=
+
+
+http_port=6100
+
+# if this is set, no data will go out on the internet
+test_only = 1  
+
+sw_vers = wxpro-0.2
